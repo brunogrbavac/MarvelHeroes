@@ -25,8 +25,13 @@ npm start
 ```
 
 ## How to use
-Whilst the search is empty app shows your **favorite characters**, but whilst you are searching app shows the **best matching** Marvel characters that you can mark as your favorite.
-![Search and favorites](https://ibb.co/yNLT9Lv)
-You can read more about some characters by **hovering on them and scrolling** trough their description, You can also **make them one of your favorite** by clicking on the unmarked star.
-![Bookmark and description](https://ibb.co/4YRZffp)
+* Whilst the search is empty app shows your **favorite characters**, but whilst you are searching app shows the **best matching** Marvel characters that you can mark as your favorite.
+
+
+![Search and favorites](https://i.ibb.co/VLXy1Xn/first.png)
+
+* You can read more about some characters by **hovering on them and scrolling** trough their description, You can also **make them one of your favorite** by clicking on the unmarked star.
+
+
+![Bookmark and description](https://i.ibb.co/7RtJzzK/second.png)
 
