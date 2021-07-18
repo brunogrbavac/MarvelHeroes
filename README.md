@@ -11,7 +11,7 @@ An application that allow users to search and bookmark their favorites Marvel ch
 
 ### Installing
 
-After cloneing this repository you need to install the dependencies named in the package.json file by executing this command:
+After cloning this repository you need to install the dependencies named in the package.json file by executing this command:
 
 ```
 npm install
