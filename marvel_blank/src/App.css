@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+    background-color: white;
+    background-image: url("./images/cover.png");
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh; 
+  }
+  
+  .App-header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  

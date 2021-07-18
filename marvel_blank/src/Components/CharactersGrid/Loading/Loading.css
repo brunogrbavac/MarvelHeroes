@@ -1,0 +1,50 @@
+@keyframes zoomWave{
+    0%, 100%{
+        transform: scale(0.2);
+    }
+    40%{
+        transform: scale(1); 
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+.loadingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.loadingContainer > p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.25rem;
+}
+.loaderImg{
+    height: 7rem;
+    transform: scale(0);
+    animation: zoomWave 3s ease-in-out infinite;
+    display: inline-block;
+    margin:.5rem;
+}
+.loaderImg:nth-child(1){
+    animation-delay:0;
+}
+.loaderImg:nth-child(2){
+    animation-delay:0.75s;
+}
+.loaderImg:nth-child(3){
+    animation-delay:1.5s;
+}
+.loaderImg:nth-child(4){
+    animation-delay:2.25s;
+}
+@media screen and (max-width:540px) {
+    .loadingContainer > p{
+        font-size: 0.8rem;
+    }
+    .loaderImg{
+        height: 4rem;
+        margin:.2rem;
+    }
+}

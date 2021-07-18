@@ -1,0 +1,80 @@
+.noFavoritesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.welcomeContainer{
+    height: 15rem;
+    overflow-y: hidden;
+    margin-right: 3rem;
+    border-bottom: 10px solid rgb(136,206,177);
+    padding: 0 2rem;
+}
+.welcomeText{
+    font-size: 8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    transform: translateY(25%);
+    line-height: 8rem;
+    margin: 0;
+}
+.welcomeContainer:hover .welcomeText{
+    transform: translate(0);
+    transition: 0.4s ease-in-out;
+}
+.welcomeContainer:not(:hover) .welcomeText{
+    transition: 0.4s ease-in-out;
+}
+.noFavoritesTextContainer{
+    width: 25rem;
+    text-align: start;
+}
+.noFavoritesText{
+    font-size: 2.3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: lighter;
+}
+#marvelText{
+    font-weight: bold;
+}
+@media screen and (max-width:1200px) {
+    .welcomeContainer{
+        height: 12rem;
+        margin-right: 2rem;
+        border-bottom-width: 8px;
+        padding: 0 1.5rem;
+    }
+    .welcomeText{
+        font-size: 6rem;
+        line-height: 6rem;
+        transform: translateY(20%);
+    }
+    .noFavoritesTextContainer{
+        width: 17rem;
+    }
+    .noFavoritesText{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .noFavoritesContainer{
+        flex-direction: column;
+    }
+    .welcomeContainer{
+        height: 10rem;
+        margin: 2rem 0;
+        padding: 0 2rem;
+    }
+    .welcomeText{
+        font-size: 4rem;
+        line-height: 4rem;
+        transform: translateY(40%);
+    }
+    .noFavoritesTextContainer{
+        width: 15rem;
+    }
+    .noFavoritesText{
+        font-size: 1.5rem;
+    }
+}

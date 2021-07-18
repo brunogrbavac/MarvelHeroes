@@ -1,0 +1,37 @@
+.noResultsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.deadpoolImg{
+    height: 20rem;
+    -webkit-filter: 
+        drop-shadow(1px 1px 0 black)
+        drop-shadow(-1px -1px 0 black);
+    filter: 
+        drop-shadow(1px 1px 0 black) 
+        drop-shadow(-1px -1px 0 black);
+}
+.sorryText{
+    font-family: 'Permanent Marker', cursive;    
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.noResultsText{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    color: dimgray;
+}
+@media screen and (max-width:700px) {
+    .sorryText, .noResultsText{
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+    }
+    .deadpoolImg{
+        height: 15rem;
+    }
+}
