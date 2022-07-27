@@ -1,6 +1,6 @@
 # Marvel Heroes
 
-This is a React.js web app made for browsing your favorite Marvel heroes. 
+This is a React.js web app made for browsing your favourite Marvel heroes. 
 
 ## About
 
