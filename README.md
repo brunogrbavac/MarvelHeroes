@@ -1,6 +1,6 @@
-# Marvel Blank
+# Marvel Heroes
 
-This is a React.js web app made as a internship application task for frontend internship at Blank. 
+This is a React.js web app made for browsing your favorite Marvel heroes. 
 
 ## About
 
