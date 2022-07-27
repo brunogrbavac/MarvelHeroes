@@ -11,15 +11,7 @@
     width: 70px;
 }
 .searchbar_logo{
-    margin: 5px 0px 5px 30px;
-}
-.searchbar_logo > .connector{
-    font-family: 'DM Sans', sans-serif;
-    font-size: 2rem;
-    vertical-align: middle;
-    font-weight: 400;
-    padding-left: 10px;
-    text-decoration: none;
+    margin: 15px 0px 15px 30px;
 }
 .searchbar_search{
     padding-right: 5rem;
