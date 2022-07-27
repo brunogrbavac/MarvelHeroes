@@ -1,6 +1,7 @@
 # Marvel Heroes
 
-This is a React.js web app made for browsing your favourite Marvel heroes. 
+This is a React.js web app made for browsing your favourite Marvel heroes. \
+http://marvel-heroes-gamma.vercel.app/
 
 ## About
 
